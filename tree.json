@@ -20,7 +20,33 @@
       "api": {
         "filetype": "dir",
         "children": [
-          
+          {
+            "sound.py": {
+              "filetype": "file",
+              "project_version": "yes",
+              "now_version": "0.0.0",
+              "new_version": "0.0.0"
+            }
+          },
+          {
+            "version.json": {
+              "filetype": "file",
+              "project_version": "no"
+            }
+          },
+          {
+            "img2": {
+              "filetype": "dir",
+              "children": [
+                {
+                  "version3.json": {
+                    "filetype": "file",
+                    "project_version": "no"
+                  }
+                }
+              ]
+            }
+          }
         ]
       }
     }
