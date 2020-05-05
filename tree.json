@@ -54,8 +54,13 @@
       "img_data": {
         "filetype": "dir",
         "children": [
-          
+          {
+            "profile.jpg": {
+              "filetype": "media"
+            }
+          }
         ]
+      }
     }
   ]
 }
