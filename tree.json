@@ -2,7 +2,7 @@
   "file_version": [
     {
       "main.py":{
-        "filepath": "file",
+        "filetype": "file",
         "project_version": "yes",
         "now_version": "0.0.0",
         "new_version": "0.0.0"
