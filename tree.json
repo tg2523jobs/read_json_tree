@@ -58,6 +58,11 @@
             "profile.jpg": {
               "filetype": "media"
             }
+          },
+          {
+            "info.mp4": {
+              "filetype": "media"
+            }
           }
         ]
       }
