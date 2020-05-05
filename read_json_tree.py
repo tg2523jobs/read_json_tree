@@ -17,6 +17,6 @@ def loop_file(NODE_DATA, LEVEL_INDEX = 0):
     for node in node_data:
         print(node)
 
-print(tree_files["project_id"])
+print(tree_data["project_id"])
 
 loop_file(tree_files["file_version"])
