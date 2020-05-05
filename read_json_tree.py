@@ -19,4 +19,4 @@ def loop_file(NODE_DATA, LEVEL_INDEX = 0):
 
 print(tree_data["project_id"])
 
-loop_file(tree_files["file_version"])
+loop_file(tree_data["file_version"])
