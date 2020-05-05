@@ -10,7 +10,10 @@
     },
     {
       "abc.py":{
-        
+        "filetype": "file",
+        "project_version": "no",
+        "now_version": "0.0.0",
+        "new_version": "0.0.0"
       }
     }
   ]
