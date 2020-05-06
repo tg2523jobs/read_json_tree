@@ -32,7 +32,6 @@ def loop_file(NODE_DATA, LEVEL_INDEX = 0):
                 loop_file(node[node_inside]["children"], level_index)
                 level_index -= 1
 
-
 print(tree_data["project_id"])
 
 loop_file(tree_data["file_version"])
