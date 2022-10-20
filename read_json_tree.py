@@ -14,9 +14,10 @@ class test_tree:
     
     def route_paths(self):
         self.tree_files = self.root_path + "tree.json"
-
-with open(tree_files, "r") as f:
-    tree_data = json.load(f)
+        
+    def read_tree(self):
+        with open(self.tree_files, "r") as f:
+            self.tree_data = json.load(f)
 
 def loop_file(NODE_DATA, LEVEL_INDEX = 0):
     level_index = LEVEL_INDEX
