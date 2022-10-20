@@ -8,13 +8,13 @@ class test_tree:
     
     def __init__(self):
         pass
-        
+    
     def setting_location_path(self):
         self.root_path = os.getcwd() + "/"
     
     def route_paths(self):
         self.tree_files = self.root_path + "tree.json"
-        
+    
     def read_tree(self):
         with open(self.tree_files, "r") as f:
             self.tree_data = json.load(f)
@@ -25,11 +25,11 @@ class test_tree:
         self.read_tree()
         print(self.tree_data["project_id"])
         self.loop_file(self.tree_data["file_version"])
-
+    
     def loop_file(self, NODE_DATA, LEVEL_INDEX = 0):
         level_index = LEVEL_INDEX
         node_data = NODE_DATA
-
+        
         for node in node_data:
             # print(node)
             for node_inside in node:
