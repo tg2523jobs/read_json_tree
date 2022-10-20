@@ -8,6 +8,9 @@ class test_tree:
     
     def __init__(self):
         pass
+        
+    def setting_location_path(self):
+        pass
 
 
 root_path = os.getcwd() + "/"
