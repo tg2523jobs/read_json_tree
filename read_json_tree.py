@@ -48,8 +48,4 @@ class test_tree:
                     loop_file(node[node_inside]["children"], level_index)
                     level_index -= 1
 
-
-
-
-
-# test
+# end
