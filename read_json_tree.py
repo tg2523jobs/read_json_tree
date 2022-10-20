@@ -20,6 +20,9 @@ class test_tree:
             self.tree_data = json.load(f)
     
     def start_tree(self):
+        self.setting_location_path()
+        self.route_paths()
+        self.read_tree()
         print(self.tree_data["project_id"])
         self.loop_file(self.tree_data["file_version"])
 
