@@ -3,6 +3,13 @@
 import os
 import json
 
+
+class test_tree:
+    
+    def __init__(self):
+        pass
+
+
 root_path = os.getcwd() + "/"
 tree_files = root_path + "tree.json"
 
