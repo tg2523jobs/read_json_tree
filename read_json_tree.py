@@ -55,3 +55,6 @@ class test_tree:
                     level_index -= 1
 
 # test_tree end
+
+if __name__ == "__main__":
+    pass
