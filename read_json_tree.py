@@ -10,10 +10,8 @@ class test_tree:
         pass
         
     def setting_location_path(self):
-        pass
+        self.root_path = os.getcwd() + "/"
 
-
-root_path = os.getcwd() + "/"
 tree_files = root_path + "tree.json"
 
 with open(tree_files, "r") as f:
