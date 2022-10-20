@@ -20,6 +20,7 @@ class test_tree:
             self.tree_data = json.load(f)
     
     def start_tree(self):
+        print(self.tree_data["project_id"])
         self.loop_file(self.tree_data["file_version"])
 
 def loop_file(NODE_DATA, LEVEL_INDEX = 0):
@@ -44,7 +45,7 @@ def loop_file(NODE_DATA, LEVEL_INDEX = 0):
                 loop_file(node[node_inside]["children"], level_index)
                 level_index -= 1
 
-print(tree_data["project_id"])
+
 
 
 
