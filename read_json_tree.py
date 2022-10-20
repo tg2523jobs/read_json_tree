@@ -18,15 +18,16 @@ class test_tree:
         self.tree_files = self.root_path + "tree.json"
     
     # read json file
-    def read_tree(self):
-        with open(self.tree_files, "r") as f:
-            self.tree_data = json.load(f)
+    def read_tree(self, get_json_name):
+        with open(get_json_name, "r") as f:
+            get_json_dict = json.load(f)
+        return get_json_dict
     
     # cell tree
     def start_tree(self):
         self.setting_location_path()
         self.route_paths()
-        self.read_tree()
+        self.tree_data = self.read_tree(self.tree_files)
         print(self.tree_data["project_id"])
         self.loop_file(self.tree_data["file_version"])
     
