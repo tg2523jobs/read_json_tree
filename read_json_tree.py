@@ -57,4 +57,4 @@ class test_tree:
 # test_tree end
 
 if __name__ == "__main__":
-    pass
+    my_tree = test_tree()
