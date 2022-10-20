@@ -11,8 +11,9 @@ class test_tree:
         
     def setting_location_path(self):
         self.root_path = os.getcwd() + "/"
-
-tree_files = root_path + "tree.json"
+    
+    def route_paths(self):
+        self.tree_files = self.root_path + "tree.json"
 
 with open(tree_files, "r") as f:
     tree_data = json.load(f)
