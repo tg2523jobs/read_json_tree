@@ -58,3 +58,4 @@ class test_tree:
 
 if __name__ == "__main__":
     my_tree = test_tree()
+    my_tree.start_tree()
