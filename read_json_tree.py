@@ -15,6 +15,8 @@ class test_tree:
     
     # set all paths 
     def route_paths(self):
+        if hasattr(self, "root_path") == False:
+            self.setting_location_path()
         self.tree_files = self.root_path + "tree.json"
     
     # read json file
