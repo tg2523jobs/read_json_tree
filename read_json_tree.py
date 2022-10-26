@@ -27,7 +27,6 @@ class test_tree:
     
     # cell tree
     def start_tree(self):
-        self.setting_location_path()
         self.route_paths()
         self.tree_data = self.read_tree(self.tree_files)
         print(self.tree_data["project_id"])
