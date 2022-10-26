@@ -53,7 +53,7 @@ class test_tree:
                             print("|   %s|-->new version:%s" % (add_head * level_index, node[node_inside]["now_version"]))
                 elif node[node_inside]["filetype"] == "dir":
                     level_index += 1
-                    loop_file(node[node_inside]["children"], level_index)
+                    self.loop_file(node[node_inside]["children"], level_index)
                     level_index -= 1
 
 # test_tree end
